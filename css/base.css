@@ -1,0 +1,440 @@
+.navbar{
+	margin-bottom: 0px;
+}
+
+#root{
+	position: relative;
+	overflow: hidden;
+}
+
+#heroVideo {
+	width: 100%;
+	position: relative;
+	bottom: 20px;
+	/*filter: hue-rotate(20deg);*/
+}
+
+#bc_hero_logo {
+	position: absolute;
+	top: 260px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-ondark.png") no-repeat 0px 7px;
+	background-size: 950px;
+	color: transparent;
+	line-height: 210px;
+	width: 941px;
+}
+
+#bc_hero_logo_dark {
+	position: absolute;
+	top: 260px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-onlight.png") no-repeat 0px 29px;
+	background-size: 930px;
+	color: transparent;
+	line-height: 210px;
+	width: 941px;
+}
+
+@media only screen and (max-width: 1600px) {
+  	.navbar{
+  		margin-bottom: 0px;
+  	}
+	#heroVideo {
+		width: 100%;
+		right: 0%;
+	}
+
+	#bc_hero_logo {
+		top: 110px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-ondark.png") no-repeat;
+		background-size: 100%;
+		line-height: 210px;
+		width: 700px;
+	}
+
+	#bc_hero_logo_dark {
+		top: 100px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-onlight.png") no-repeat 0px 0px;
+		background-size: 100%;
+		line-height: 210px;
+		width: 700px;
+	}
+}
+
+
+@media only screen and (max-width: 830px) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+@media only screen and (max-width: 350px) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 100px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 100px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+@media only screen and (max-width: 250px) {
+  	#bc_hero_logo {
+  		background-image: none;
+	}
+
+	#bc_hero_logo_dark {
+		background-image: none;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 216px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 216px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 150px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+  	.navbar{
+  		margin-bottom: 0px;
+  	}
+	#heroVideo {
+		width: 100%;
+		right: 0%;
+	}
+
+	#bc_hero_logo {
+		top: 110px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-ondark.png") no-repeat;
+		background-size: 100%;
+		line-height: 210px;
+		width: 700px;
+	}
+
+	#bc_hero_logo_dark {
+		top: 100px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-onlight.png") no-repeat 0px 0px;
+		background-size: 100%;
+		line-height: 210px;
+		width: 700px;
+	}
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+  	.navbar{
+  		margin-bottom: 0px;
+  	}
+	#heroVideo {
+		width: 100%;
+		right: 0%;
+	}
+	#bc_hero_logo {
+		top: 110px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-ondark.png") no-repeat;
+		background-size: 100%;
+		line-height: 230px;
+		width: 550px;
+	}
+	#bc_hero_logo_dark {
+		top: 100px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-onlight.png") no-repeat 0px 0px;
+		background-size: 100%;
+		line-height: 230px;
+		width: 550px;
+	}
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+  	#bc_hero_logo {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-ondark.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+	#bc_hero_logo_dark {
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-stacked-onlight.png") no-repeat;
+		background-size: unset;
+		background-position-x: -20px;
+		top: 125px;
+		line-height: 210px;
+		width: 178px;
+	}
+		#heroVideo {
+		width: 300%;
+		position: relative;
+		right: 100%;
+		bottom: 20px;
+		/*filter: hue-rotate(20deg);*/
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+  	.navbar{
+  		margin-bottom: 0px;
+  	}
+	#heroVideo {
+		width: 100%;
+		right: 0%;
+	}
+
+	#bc_hero_logo {
+		top: 110px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-ondark.png") no-repeat;
+		background-size: 100%;
+		line-height: 230px;
+		width: 550px;
+	}
+
+	#bc_hero_logo_dark {
+		top: 100px;
+		background: url("https://solutions.brightcove.com/jvanemmerik/hero/img/bc-logo-onlight.png") no-repeat 0px 0px;
+		background-size: 100%;
+		line-height: 230px;
+		width: 550px;
+	}
+}
+body{
+	margin: 0;
+}
+
+#heroVideo {
+	width: 100%;
+	position: relative;
+	/*bottom: 20px;*/
+	/*filter: hue-rotate(20deg);*/
+}
+
+#root{
+}
+
+#bc_logo {
+	/*content: url(/img/bc-logo-ondark.png);*/
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+}
